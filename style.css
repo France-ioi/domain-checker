@@ -1,0 +1,36 @@
+body {
+    font-family: arial;
+    font-size: 16px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+thead {
+    font-weight: bold;
+}
+
+.recommendation {
+    font-size: 24px;
+}
+
+.status-testing {
+    background-color: yellow;
+}
+.status-working {
+    background-color: lightgreen;
+}
+.status-working > td:first-child {
+    font-weight: bold;
+}
+.status-notworking {
+    background-color: lightpink;
+    color: dimgrey;
+}
+.status-unknown {
+    background-color: lightgrey;
+}
